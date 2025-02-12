@@ -4,7 +4,7 @@ metadata:
   name: busybox
   namespace: todoapp
   labels:
-   app: todolist
+    app: todolist
 spec:
   containers:
   - name: busybox

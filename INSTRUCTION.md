@@ -1,5 +1,5 @@
 Testing the ToDo application using the busyboxplus:curl container:
-1. Connect to the busybox pod: kubectl -n <namespace> exec -it busybox -- sh
+1. Connect to the busybox pod: kubectl -n todoapp exec -it busybox -- sh
 2. Inside the shell: curl http://<service-name>.<namespace>.svc.cluster.local
 3. To exit the shell, enter the command "exit".
 
